@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .buttons,.operations,#result{
+            height:45px;
+            width:45px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        #digits{
+            height:30px;
+            width:167px;
+            border: 2px solid black;
+            text-align: right;
+            padding-top: 10px;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p id="digits">0</p>
+    <p>
+        <button class="buttons">1</button>
+        <button class="buttons">2</button>
+        <button class="buttons">3</button><br><br>
+        <button class="buttons">4</button>
+        <button class="buttons">5</button>
+        <button class="buttons">6</button><br><br>
+        <button class="buttons">7</button>
+        <button class="buttons">8</button>
+        <button class="buttons">9</button><br><br>
+
+        <button class="operations">+</button>
+        <button class="operations">-</button>
+        <button class="operations">/</button><br><br>
+        <button class="operations">*</button>
+        <button id="result">=</button>
+        <button class="operations">AC</button>
+        
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
